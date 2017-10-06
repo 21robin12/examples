@@ -1,4 +1,0 @@
-﻿ - Tests as a class library, not a tests project
- - Ran "Install-Package NUnit -Version 2.6.4"
- - Ran "Install-Package Moq"
- - Then just started writing tests - see EmailServiceTests
