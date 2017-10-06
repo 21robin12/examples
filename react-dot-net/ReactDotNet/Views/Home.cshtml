@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div id="react-root"></div>
+
+    <!-- see https://facebook.github.io/react/docs/installation.html -->
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+
+    <!-- compiles JSX files on-the-fly; perf overhead -->
+    <script src="@Url.Content("~/Scripts/HelloWorld.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/Main.jsx")"></script>
+</body>
+</html>
