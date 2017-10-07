@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\UnitTestExamples.Repository\UnitTestExamples.Repository.csproj" />
-  </ItemGroup>
-
 </Project>
