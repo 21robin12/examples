@@ -1,0 +1,8 @@
+﻿#########################
+### F# with databases ###
+#########################
+
+ - We can use F# type providers for easy SQL access straight from F#: http://devcenter.wintellect.com/jwood/access-data-easier-with-f-type-providers
+ - This means we wouldn't be using Entity Framework, so would need to define the database in some other way.
+ - A database project provides schema compare, which allows us to define a database with .sql files and then update the database as those files change.
+ - Quick-start for using a database project: https://weblogs.asp.net/gunnarpeipman/using-visual-studio-database-projects-in-real-life

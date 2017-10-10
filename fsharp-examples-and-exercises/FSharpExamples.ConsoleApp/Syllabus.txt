@@ -1,0 +1,32 @@
+﻿##############################################
+### 2: functional programming fundamentals ###
+##############################################
+
+Use O'Reilly F# 3.0 book.
+Skip anything I've already covered. Make at least rough notes on everything else.
+Remaining:
+
+ - Pages 51 - 95. 
+
+
+#########################################
+### 3: applied functional programming ###
+#########################################
+
+Use O'Reilly F# 3.0 book.
+Remaining:
+
+ - Pages 185 - 227
+
+
+#########################################################
+### Advanced topics, good practices & general reading ###
+#########################################################
+
+O'Reilly F# 3.0: Asynchronous and Parallel Programming
+O'Reilly F# 3.0: Data Processing (nice search engine example - not too long)
+O'Reilly F# 3.0: Part III has a load of advanced stuff - how relevant for Risk First?
+https://fsharpforfunandprofit.com/posts/elevated-world/ (this looks super interesting)
+https://fsharpforfunandprofit.com/series/
+https://fsharpforfunandprofit.com/posts/
+https://fsharpforfunandprofit.com/site-contents/
