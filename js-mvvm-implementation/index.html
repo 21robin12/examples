@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="mvvm.js"></script>
+        <script src="demoScripts.js"></script>
+    </head>
+    <body>
+        <div id="mount-point">
+            <h1 data-bind="if: $model.displayTitle()">MVVM implementation</h1>
+        
+            <button data-bind="click: $model.showTitle()">Show title</button>
+            <button data-bind="click: $model.hideTitle()">Hide title</button>
+        
+            <p data-bind="value: $model.loadingText() + $model.dots() + ' hello!'"></p>
+            <div>
+                <p data-bind="value: $model.loadingText()"></p>
+            </div>
+        
+            <button data-bind="click: $model.updateLoadingText()">Click to change text</button>
+        
+            <div data-bind="foreach: $model.items()">
+                <h3 data-bind="value: $data"></h3>
+            </div>
+        
+            <button data-bind="click: $model.updateItems()">Click to change items</button>
+        
+            <div data-bind="foreach: $model.objectItems()">
+                <h3 data-bind="value: $data.title + ', ' + $data.number()"></h3>
+                <button data-bind="click: $data.increaseNumber()">+</button>
+            </div>
+        
+            <button data-bind="click: $model.updateObjectItems()">Click to change object items</button>
+        </div>
+    </body>
+</html>
+
